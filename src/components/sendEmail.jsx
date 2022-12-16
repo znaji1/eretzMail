@@ -17,7 +17,7 @@ const SendEmail = () => {
       )
       .then(
         (result) => {
-          showSuccess("Email est envoyee avec succes");
+          showSuccess("Email a été envoyé avec succès");
           console.log(result.text);
           console.log("message sent");
         },
